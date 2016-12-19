@@ -1,0 +1,12 @@
+<resources>
+    <string name="Hello">Hello World !!</string>
+    <string name="button">New Button !!</string>
+    <string name="toast">New Activity</string>
+    <string name="notification_title">Notification</string>
+    <string name="notification_text">WoW, you show a notification</string>
+    <string name="singer">Singer/Group</string>
+    <string name="WrongUrl">Unable to retrieve web page. URL may be invalid.</string>
+    <string name="songTitle">a song name </string>
+    <string name="AlbumTitle">an album title </string>
+    <string name="cover">cover </string>
+</resources>

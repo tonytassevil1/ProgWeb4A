@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/activity_main" >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/singer"
+    android:layout_gravity="center_horizontal" />
+
+<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent">
+
+    <EditText
+        android:id="@+id/Research" android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:layout_gravity="center_horizontal"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DLTask"
+        android:src="@android:drawable/ic_menu_search"
+        android:onClick="onClickTest"
+        android:layout_gravity="right" />
+</LinearLayout>
+
+<ImageView
+    android:id="@+id/imageAlbum"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    />
+
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/playMusic"
+    android:src="@android:drawable/ic_media_play"
+    android:onClick="playMusic"
+    android:layout_gravity="center_horizontal" />
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/pauseMusic"
+    android:src="@android:drawable/ic_media_pause"
+    android:onClick="pauseMusic"
+    android:layout_gravity="center_horizontal" />
+
+<TextView
+    android:id="@+id/DLTaskText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text=""/>
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imagedisk"/>
+
+
+
+</LinearLayout>

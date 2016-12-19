@@ -1,0 +1,12 @@
+<resources>
+    <string name="Hello">Bonjour le monde !!</string>
+    <string name="button">Nouveau Bouton !!</string>
+    <string name="toast">Nouvelle Activité</string>
+    <string name="notification_title"> Notification</string>
+    <string name="notification_text">WoW, cest bien une notification</string>
+    <string name="singer">Chanteur/Groupe</string>
+    <string name="WrongUrl">impossible de charger la page. Mauvaise url</string>
+    <string name="songTitle">Titre chanson </string>
+    <string name="AlbumTitle">Titre dun album </string>
+    <string name="cover">Jacket album </string>
+</resources>
